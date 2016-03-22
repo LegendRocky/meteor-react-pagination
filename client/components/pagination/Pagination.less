@@ -1,0 +1,58 @@
+#pagination {
+	margin:15px 0;
+	.hide{
+		display: none;
+	}
+	.clearify{
+		clear: both;
+	}
+	.page{
+		width: auto;
+		li{
+			float: left;
+			height: 28px;
+			width: 28px;
+			line-height: 28px;
+			border-radius: 6px;
+			margin-right: 10px;
+			border: 1px solid #d9d9d9;
+			text-align: center;
+		}
+		li:hover{
+			cursor: pointer;
+		}
+		li.active{
+			background-color: rgb(45,183,245);
+			color: white;
+			border: none;
+		}
+	}
+	.page-count{
+		float: right;
+		height: 28px;
+		line-height: 28px;
+		border: 1px solid #d9d9d9;
+		border-radius: 6px;
+		display: inline-block;
+		position:relative;
+		width: 78px;
+		text-align: center;
+	}
+	.page-count-select{
+		position: absolute;
+		bottom: 30px;
+		left: -1px;
+		box-shadow: 0 0 4px rgba(0,0,0,0.17);
+		border: 1px solid #d9d9d9;
+		width: 78px;
+		border-radius: 6px;
+		background: white;
+		li{
+			height: 28px;
+			line-height: 28px;
+		}
+		li:hover{
+			background: silver;
+		}
+	}
+}
